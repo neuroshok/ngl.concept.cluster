@@ -1,0 +1,13 @@
+// Anonymous concept cluster
+arkena:concept project
+ngl:entity anonymous // create an entity
+ngl:entity:cluster<anonymous> // set the entity cluster to anonymous
+
+ngc project
+{
+    name
+    description
+    technology {}
+    ngc:many entity {}
+    ngc:temporal deadline
+}
