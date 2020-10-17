@@ -1,0 +1,12 @@
+// Collaborative concept cluster
+ngl:entity collaborator // create an entity
+ngl:entity:cluster<collaborator> // set the entity cluster to anonymous
+
+ngc project
+{
+    name
+    description
+    technology {}
+    ngc:many entity {}
+    ngc:temporal deadline
+}
