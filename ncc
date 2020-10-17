@@ -1,0 +1,11 @@
+ngl:entity neuroshok // create an entity
+ngl:entity:cluster<neuroshok> // set the entity cluster to neuroshok
+
+ngc project
+{
+    name
+    description
+    technology {}
+    ngc:many entity {}
+    ngc:temporal deadline
+}
